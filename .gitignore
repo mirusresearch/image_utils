@@ -1,6 +1,6 @@
 
 .hg
-mirus_image_utils.egg-info
+image_utils_fdh.egg-info
 build
 dist
 *.pyc
