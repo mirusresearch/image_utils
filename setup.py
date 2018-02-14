@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mirus_image_utils',
-    version='1.0.1',
+    version='1.0.2',
     description='Mirus Image Utilities',
     author='Frank Henard',
     author_email='frank@mirusresearch.com',
@@ -11,5 +11,6 @@ setup(
     license='MIT license, see LICENSE.txt',
     install_requires=[
         'Pillow>=1.7.8',
-    ]
+    ],
+    py_modules=['mirus_image_utils'],
 )
