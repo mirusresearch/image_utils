@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='image_utils',
@@ -8,6 +7,8 @@ setup(
     author='Frank Henard',
     author_email='frank@mirusresearch.com',
     packages=['image_utils'],
+    url='https://github.com/mirusresearch/image_utils',
+    license='MIT license, see LICENSE.txt',
     install_requires=[
         'Pillow>=1.7.8',
     ]
