@@ -7,8 +7,8 @@ setup(
     author='Frank Henard',
     author_email='frank@mirusresearch.com',
     packages=find_packages(),
-    url='https://github.com/mirusresearch/image_utils',
-    license='MIT license, see LICENSE.txt',
+    url='https://github.com/mirusresearch/image_utils_fdh',
+    license='MIT license, see LICENSE',
     install_requires=[
         'Pillow>=1.7.8',
     ],
