@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='mirus_image_utils',
-    version='1.0.2',
+    name='image_utils_fdh',
+    version='1.0.0',
     description='Mirus Image Utilities',
     author='Frank Henard',
     author_email='frank@mirusresearch.com',
@@ -12,5 +12,5 @@ setup(
     install_requires=[
         'Pillow>=1.7.8',
     ],
-    py_modules=['mirus_image_utils'],
+    py_modules=['image_utils_fdh'],
 )
